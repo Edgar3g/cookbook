@@ -5,8 +5,27 @@
 
 ## Getting Start
 
-    > Do you need have python installed into your machine
-
-python manage.py makemigrations
-python manage.py migrate
-python manage.py loaddata ingredients
+    > you need to have python already installed on your computer.
+    
+    > clone the repository to your machine
+    
+    Open the folder project, and Run into your terminal
+    
+    > py -m pip install -r requirements.txt
+    
+    > py manage.py makemigrations
+    
+    > py manage.py migrate
+    
+    > py manage.py loaddata ingredients
+    
+    and to finish run
+    
+    > py manage.py runserver
+ 
+## Preview
+  
+## Techs
+    
+    - Django
+    - graphene_django
