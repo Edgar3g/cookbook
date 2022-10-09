@@ -41,7 +41,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'core.urls'
 
-
+GRAPHENE ={
+    'SCHEMA':'cookbook.schema.schema',
+}
 
 TEMPLATES = [
     {
